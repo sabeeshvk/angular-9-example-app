@@ -51,4 +51,4 @@ jobs:
         with:
           app-name: 's-angular-demo'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D1CA703D797D4C2DBCF2849E3C009951 }}
-          package: .
+          package: ./dist/angular-9-example-app
